@@ -12,7 +12,7 @@ class productservices {
       print(jsonData);
       return todoModelFromJson(jsonData);
     } else {
-      return throw Exception("Faild to load");
+      return throw Exception("Faild to loadd");
     }
   }
 
